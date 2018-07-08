@@ -12,7 +12,8 @@ git clone https://github.com/matthewdavidrodgers/what-the-duck.git
 cd what-the-duck
 ```
 Build the project using one of the provided makefiles. Due to compiler differences, specify whether you are building on a mac or linux machine.
-For OSX: ```
+For OSX:
+```
 make -f makefile.mac
 ```
 For linux:
