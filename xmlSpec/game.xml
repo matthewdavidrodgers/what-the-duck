@@ -1,0 +1,554 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Ugly Duckling: Look Who's Ugly Now</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>false</frameCapOn>
+<period>17</period>
+<initialHUDtime>3</initialHUDtime>
+
+<maxFrames>300</maxFrames>
+<username>mdrodge</username>
+
+<view>
+  <width>636</width>
+  <height>637</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>637</height>
+</world>
+
+<water>
+  <file>assets/water.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</water>
+
+<path>
+  <file>assets/path.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</path>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Swan_1>
+  <startLoc x="40" y="50"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangry.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_1>
+
+<Swan_2>
+  <startLoc x="250" y="500"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangrylower.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_2>
+
+<Swan_3>
+  <startLoc x="800" y="50"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangry.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_3>
+
+<Swan_4>
+  <startLoc x="600" y="500"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangrylower.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_4>
+
+<Swan_5>
+  <startLoc x="1000" y="500"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangrylower.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>250</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_5>
+
+<Swan_6>
+  <startLoc x="1650" y="500"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangrylower.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_6>
+
+<Swan_7>
+  <startLoc x="1650" y="50"/>
+  <right>
+    <file>assets/swanright.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </right>
+  <left>
+    <file>assets/swanleft.png</file>
+    <frames>1</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </left>
+  <angry>
+    <file>assets/swanangry.png</file>
+    <frames>2</frames>
+    <imageWidth>128</imageWidth>
+    <imageHeight>88</imageHeight>
+    <transparency>false</transparency>
+  </angry>
+  <frameInterval>150</frameInterval>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <territorySize>200</territorySize>
+  <glob>
+    <file>assets/spit.png</file>
+    <frames>1</frames>
+    <imageWidth>25</imageWidth>
+    <imageHeight>25</imageHeight>
+    <transparency>false</transparency>
+    <frameInterval>1</frameInterval>
+    <relativeSpeed>
+      <x>80</x>
+      <y>80</y>
+    </relativeSpeed>
+    <speedMultiplier>200</speedMultiplier>
+    <expireDistance>300</expireDistance>
+  </glob>
+</Swan_7>
+
+<DuckTwoWay>
+  <startLoc x="50" y="350"/>
+  <modeA>
+    <file>assets/duck.png</file>
+    <frames>2</frames>
+    <imageWidth>46</imageWidth>
+    <imageHeight>61</imageHeight>
+    <transparency>false</transparency>
+  </modeA>
+  <modeB>
+    <file>assets/duckback.png</file>
+    <frames>2</frames>
+    <imageWidth>46</imageWidth>
+    <imageHeight>61</imageHeight>
+    <transparency>false</transparency>
+  </modeB>
+  <frameInterval>100</frameInterval>
+  <speedX>225</speedX>
+  <speedY>225</speedY>
+  <chunk>
+    <size>10</size>
+    <distance>50</distance>
+  </chunk>
+</DuckTwoWay>
+
+<EggCount>10</EggCount>
+
+<Egg_1>
+  <file>assets/egg.png</file>
+  <startLoc x="180" y="300"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_1>
+
+<Egg_2>
+  <file>assets/egg.png</file>
+  <startLoc x="300" y="170"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_2>
+
+<Egg_3>
+  <file>assets/egg.png</file>
+  <startLoc x="600" y="400"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_3>
+
+<Egg_4>
+  <file>assets/egg.png</file>
+  <startLoc x="650" y="320"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_4>
+
+<Egg_5>
+  <file>assets/egg.png</file>
+  <startLoc x="730" y="200"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_5>
+
+<Egg_6>
+  <file>assets/egg.png</file>
+  <startLoc x="900" y="280"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_6>
+
+<Egg_7>
+  <file>assets/egg.png</file>
+  <startLoc x="1200" y="420"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_7>
+
+<Egg_8>
+  <file>assets/egg.png</file>
+  <startLoc x="1575" y="300"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_8>
+
+<Egg_9>
+  <file>assets/egg.png</file>
+  <startLoc x="1800" y="200"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_9>
+
+<Egg_10>
+  <file>assets/egg.png</file>
+  <startLoc x="1820" y="420"/>
+  <frames>10</frames>
+  <imageWidth>40</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Egg_10>
+
+<Bird_1>
+  <file>assets/bird.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>2</frames>
+  <imageWidth>26</imageWidth>
+  <imageHeight>15</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-300</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</Bird_1>
+
+<Bird_2>
+  <file>assets/bird.png</file>
+  <startLoc x="140" y="140"/>
+  <frames>2</frames>
+  <imageWidth>26</imageWidth>
+  <imageHeight>15</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>150</speedY>
+  <transparency>false</transparency>
+</Bird_2>
+
+<Bird_3>
+  <file>assets/bird.png</file>
+  <startLoc x="300" y="400"/>
+  <frames>2</frames>
+  <imageWidth>26</imageWidth>
+  <imageHeight>15</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-100</speedX>
+  <speedY>150</speedY>
+  <transparency>false</transparency>
+</Bird_3>
+
+<Bird_4>
+  <file>assets/bird.png</file>
+  <startLoc x="700" y="320"/>
+  <frames>2</frames>
+  <imageWidth>26</imageWidth>
+  <imageHeight>15</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>-200</speedY>
+  <transparency>false</transparency>
+</Bird_4>
+
+<Bird_5>
+  <file>assets/bird.png</file>
+  <startLoc x="700" y="500"/>
+  <frames>2</frames>
+  <imageWidth>26</imageWidth>
+  <imageHeight>15</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>-200</speedY>
+  <transparency>false</transparency>
+</Bird_5>
+
+</GameData>
