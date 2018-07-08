@@ -11,14 +11,14 @@ Clone the repo and navigate to the directory
 git clone https://github.com/matthewdavidrodgers/what-the-duck.git
 cd what-the-duck
 ```
-Build the project using one of the provided makefiles. Due to compiler differences, specify whether you are building on a mac or linux machine.
+Build the project using one of the provided Makefile.. Due to compiler differences, specify whether you are building on a mac or linux machine.
 For OSX:
 ```
-make -f makefile.mac
+make -f Makefile.mac
 ```
 For linux:
 ```
-make -f makefile.linux
+make -f Makefile.linux
 ```
 
 ## Running and playing the game
@@ -33,9 +33,9 @@ To play, run the executable creating from the build.
 To remove object files and executables, run the make clean command, specifying your OS again.
 For OSX:
 ```
-make clean -f makefile.mac
+make clean -f Makefile.mac
 ```
 For linux:
 ```
-make clean -f makefile.linux
+make clean -f Makefile.linux
 ```
