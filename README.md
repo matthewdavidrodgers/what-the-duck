@@ -4,6 +4,13 @@ A video game created for a class about what happened after the famous children's
 
 This game, and the engine underneath, was written by me in c++ with the SDL framework.
 
+## Dependencies
+
+To build this game, you need the SDL binaries. Install them using the package manager of your choice:
+```
+sdl2 sdl2_ttf sdl2_mixer sdl2_image
+```
+
 ## Installation
 
 Clone the repo and navigate to the directory
